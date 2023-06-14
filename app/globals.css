@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  /* background-color:mintcream; */
 
 }
 
@@ -40,6 +41,15 @@
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
 }
 
+.home__text-container {
+  @apply flex flex-col items-start justify-start gap-y-2.5 text-black-100;
+}
+
+.home__exp-wrapper {
+  @apply grid 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 pt-14;
+}
+
+
 
 /* hero Stuff */
 .hero {
@@ -68,4 +78,18 @@
 
 .custom-btn {
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
+}
+
+/* card */
+
+.exp-card {
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+}
+
+.exp-card__content {
+  @apply w-full flex justify-between items-start gap-2;
+}
+
+.exp-card__content-title {
+  @apply text-[22px] leading-[26px] font-bold capitalize;
 }

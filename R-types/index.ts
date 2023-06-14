@@ -6,4 +6,8 @@ export interface CustomButtonProps {
     containerStyles?:string;
     handleClick?: 
     MouseEventHandler<HTMLButtonElement>;
+    rightIcon?:string;
+    textStyles?:string;
+
+
 }
