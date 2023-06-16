@@ -5,10 +5,23 @@ import Image from "next/image";
 import { useState } from "react";
 
 const ExPCard = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <>
+      <div className="exp-card group border-t border-gray-400 ">
+        <div className="exp-card__content">
+          <h2 className="exp-card__content-title"> Laravel </h2>
+        </div>
+        <div className="relative w-full h-40 my-3 object-contain">
+          <Image
+            src="/Laravel.png"
+            alt=""
+            fill
+            priority
+            className="object-contain"
+          />
+        </div>
+      </div>
+
       <div className="exp-card group border-t border-gray-400">
         <div className="exp-card__content">
           <h2 className="exp-card__content-title"> React.js </h2>
@@ -51,21 +64,6 @@ const ExPCard = () => {
         <div className="relative w-full h-40 my-3 object-contain">
           <Image
             src="/php.png"
-            alt=""
-            fill
-            priority
-            className="object-contain"
-          />
-        </div>
-      </div>
-
-      <div className="exp-card group border-t border-gray-400 ">
-        <div className="exp-card__content">
-          <h2 className="exp-card__content-title"> Laravel </h2>
-        </div>
-        <div className="relative w-full h-40 my-3 object-contain">
-          <Image
-            src="/Laravel.png"
             alt=""
             fill
             priority

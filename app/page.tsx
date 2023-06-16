@@ -1,18 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import ExPCard from "@/components/ExPCard";
 import About from "@/components/About";
+import { useRef } from "react";
 
 export default function Home() {
   return (
     <main className="overflow-hidden">
       <Hero />
-      <div className="mt-12 padding-x padding-y max-width" id="more">
+      <div className="mt-12 padding-x padding-y max-width" id="about">
         <div className="home__text-container flex items-center justify-center text-center">
           <h1 className="text-4xl  font-extrabold">Profile Details </h1>
         </div>
 
-        <section>
+        <section className="snap-center">
           <div className="mt-12">
             <h2 className="text-4xl font-extrabold  text-black-100">
               About me{" "}
