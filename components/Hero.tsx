@@ -15,11 +15,11 @@ const Hero = () => {
         <Link href="#about">
           <CustomButton
             title="More Info.."
-            containerStyles="bg-primary-blue text-white rounded-full mt-10"
+            containerStyles="bg-orange-600 text-white rounded-full mt-10"
           />
         </Link>
 
-        <div>
+        <div className="morph-hero flex mt-5 ">
           <SocialIcon
             url="https://www.linkedin.com/in/brian-manguriu-3b0b07207/"
             fgColor="green"
@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/alpha2.png" alt="" fill className="object-contain" />
+          <Image src="/alpha3.png" alt="" fill className="object-contain" />
         </div>
         <div className="hero__image-overlay" />
       </div>

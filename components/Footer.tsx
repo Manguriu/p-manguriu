@@ -12,7 +12,7 @@ const Footer = () => {
             My website <br /> Rights @2023 &copy;{" "}
           </p>
         </div>
-        <div>
+        <div className="morph-footer group flex border-t  border-gray-400 padding-x">
           <SocialIcon
             url="https://www.linkedin.com/in/brian-manguriu-3b0b07207/"
             fgColor="green"

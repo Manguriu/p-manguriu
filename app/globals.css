@@ -73,7 +73,7 @@
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+  @apply absolute xl:-top-24 xl:-right-1/4 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[500px] overflow-hidden;
 }
 
 .custom-btn {
@@ -93,3 +93,36 @@
 .exp-card__content-title {
   @apply text-[22px] leading-[26px] font-bold capitalize;
 }
+
+.morph{
+border-radius: 30px;
+width:24%;
+background: #e0e0e0;
+box-shadow:  7px 7px 7px #a1a1a1,
+             -7px -7px 7px #ffffff;
+}
+
+.about-morph{
+  border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  41px 41px 82px #a1a1a1,
+             -41px -41px 82px #ffffff;
+  
+
+}
+
+.morph-footer{
+  border-radius: 30px;
+  width:15%;
+  background: #e0e0e0;
+  box-shadow:  7px 7px 7px #a1a1a1,
+               -7px -7px 7px #ffffff;
+  }
+
+  .morph-hero{
+    border-radius: 30px;
+    width:30%;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 7px #a1a1a1,
+                 -7px -7px 7px #ffffff;
+    }

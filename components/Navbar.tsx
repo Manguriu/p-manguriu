@@ -18,7 +18,7 @@ const Navbar = () => {
         <CustomButton
           title="Get inTouch"
           btnType="button"
-          containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+          containerStyles="text-white rounded-full bg-cyan-400 min-w-[130px]"
         />
       </nav>
     </header>

@@ -17,9 +17,6 @@ export default function Home() {
 
         <section className="snap-center">
           <div className="mt-12">
-            <h2 className="text-4xl font-extrabold  text-black-100">
-              About me{" "}
-            </h2>
             <About />
           </div>
         </section>

@@ -5,8 +5,9 @@ import { SocialIcon } from "react-social-icons";
 
 const About = () => {
   return (
-    <div className="mt-2 border-t border-gray-200">
-      <p className="mt-3">
+    <div className=" about-morph padding-y mt-2 p-4 border-t border-gray-400">
+      <h2 className="text-4xl font-extrabold  text-black-100">About me </h2>
+      <p className="mt-1 ">
         As an experienced software developer, I have a strong background in
         coding, testing, and maintaining software systems. Throughout my career,
         I have developed a versatile skill set that allows me to excel in
@@ -27,8 +28,7 @@ const About = () => {
         </Link>
       </p>
 
-      <h4 className="mt-4 underline">Socials</h4>
-      <div>
+      <div className="morph group flex padding-x mt-6 border-t border-gray-400 padding-x">
         <SocialIcon
           url="https://www.linkedin.com/in/brian-manguriu-3b0b07207/"
           fgColor="green"
