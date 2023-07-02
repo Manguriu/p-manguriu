@@ -8,14 +8,13 @@ import { useRef } from "react";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
-      <Hero />
-      <div className="mt-12 padding-x padding-y max-width" id="about">
-        <div className="home__text-container flex items-center justify-center text-center">
-          <h1 className="text-4xl  font-extrabold">Profile Details </h1>
-        </div>
+    <div className="overflow-hidden snap-y ">
+      <div className="mt-12 mb-12 padding-x padding-y max-width" id="about">
+        <section className="">
+          <Hero />
+        </section>
 
-        <section className="snap-center">
+        <section className="">
           <div className="mt-12">
             <About />
           </div>
@@ -30,6 +29,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-    </main>
+    </div>
   );
 }
